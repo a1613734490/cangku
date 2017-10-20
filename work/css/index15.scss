@@ -1,0 +1,339 @@
+body, html {
+  width: 100%;
+  font-family: "微软雅黑";
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header{
+  .header_div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .div_img {
+      width: 30%;
+      img{
+        width: 100%;
+      }
+      margin: 0.08rem 0 0.08rem 0.09rem;
+    }
+    h1{
+      font-size: 0.18rem;
+      color: #000;
+      margin-top: 0.15rem;
+    }
+    .ulList_1{
+      width: 20%;
+      margin: 0.09rem 0.09rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      li{
+        width: 50%;
+        span{
+          height: 0.225rem;
+          color: #999999;
+        }
+        P{
+          font-size: 0.115rem;
+          color: #999;
+        }
+      }
+      li:nth-of-type(2){
+        margin-top: 0.01rem;
+        span{
+          font-size: 0.155rem;
+        }
+      }
+    }
+  }
+  .header_div2{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  .header_div3{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 0.18rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    color: #000;
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+    position: relative;
+    .div_img1{
+      width: 1rem;
+      height: 0.3rem;
+      line-height: 0.3rem;
+      background: #ffffff;
+      position: absolute;
+      bottom: -0.16rem;
+      left: 35%;
+      img{
+        width: 0.5rem;
+      }
+    }
+  }
+  .div_img2{
+    width: 80%;
+    margin: 0.1rem auto;
+    img{
+      width: 100%;
+    }
+  }
+  button{
+    width: 80%;
+    margin-left: 0.38rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    font-size: 0.16rem;
+    color: #ffffff;
+    border: none;
+    background: #FEB605;
+    border-radius: 5px;
+  }
+}
+nav{
+  .nav_div1{
+    width: 95%;
+    margin: 0.18rem auto;
+    border: 1px dashed #2EC68E;
+    position: relative;
+    h1{
+      font-size: 0.16rem;
+      color: #000;
+      padding: 0 0.125rem;
+      position: absolute;
+      left: 38%;
+      top: -0.14rem;
+      background: #ffffff;
+    }
+    div{
+      width: 90%;
+      margin: 0.15rem 0.2rem;
+      text-align: center;
+      p:nth-of-type(1){
+        font-size: 0.14rem;
+        color: #777777;
+        margin-bottom: 0.125rem;
+        span{
+          color: #FF5B66;
+        }
+      }
+      p:nth-of-type(2){
+        font-size: 0.14rem;
+        margin-bottom: 0.1rem;
+      }
+      p:nth-of-type(3){
+        font-size: 0.14rem;
+        color: #777777;
+        margin-bottom: 0.1rem;
+        span{
+          color: #FDB91A;
+        }
+      }
+      button{
+        width: 100%;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        border: 1px solid #55D1A4;
+        color: #55D1A4;
+        background: #ffffff;
+        font-size: 0.16rem;
+      }
+    }
+  }
+  .yiny{
+    width: 100%;
+    height: 0.09rem;
+    margin-bottom: 0.18rem;
+    background: #F4F4F4;
+  }
+}
+section{
+  .section_div1{
+    position: relative;
+    h1{
+      width: 100%;
+      height: 0.4rem;
+      line-height: 0.4rem;
+      text-align: center;
+      font-size: 0.18rem;
+    }
+    .xiant{
+      width: 95%;
+      height: 0.01rem;
+      margin: 0 auto;
+      background: #E8E8E8;
+    }
+    img{
+      height: 0.15rem;
+      position: absolute;
+      left: 42%;
+      top: 0.32rem;
+      padding: 0 0.1rem;
+      background: #ffffff;
+    }
+  }
+  .ulList_2{
+    width: 95%;
+    margin: 0.15rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li {
+      width: 32.7%;
+      text-align: center;
+      border: 1px solid #EFEFEF;
+      padding-bottom: 0.1rem;
+      border-top: none;
+      border-left: none;
+      div{
+        margin: 0.1rem auto;
+        width: 0.6rem;
+        height: 0.6rem;
+        line-height: 0.6rem;
+        border-radius: 50%;
+        background: #39C893;
+        i{
+          color: #FDFFFD;
+          font-size: 0.34rem;
+        }
+      }
+      p{
+        font-size: 0.14rem;
+        color: #333;
+      }
+      span{
+        font-size: 0.12rem;
+        color: #666;
+      }
+    }
+    li:nth-of-type(3){
+      border-right: none;
+    }
+    li:nth-of-type(6){
+      border-right: none;
+    }
+    li:nth-of-type(4),li:nth-of-type(5),li:nth-of-type(6){
+      border-bottom: none;
+    }
+  }
+}
+footer{
+  position: relative;
+  .yiny{
+    width: 100%;
+    height: 0.09rem;
+    margin-bottom: 0.18rem;
+    background: #F4F4F4;
+  }
+  .footer_div2{
+    width: 0.47rem;
+    height: 0.47rem;
+    line-height: 0.47rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.8rem;
+    z-index: 999;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+    i{
+      font-size: 0.2rem;
+      color: #9c9c9c;
+    }
+  }
+  .footer_div3{
+    width: 90%;
+    margin: 0 auto;
+    div{
+      width: 55%;
+      margin: 0.18rem auto;
+      font-size: 0.14rem;
+      color: #333;
+      i{
+        padding-right: 0.05rem;
+        font-size: 0.16rem;
+        color: #37C791;
+      }
+    }
+    .ulList_8{
+      width: 100%;
+      margin: 0.18rem 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      li{
+        width: 25%;
+        text-align: center;
+        font-size: 0.14rem;
+        color: #333;
+      }
+      li:nth-of-type(1){
+        color: #37C791;
+      }
+    }
+  }
+  .com {
+    width: 100%;
+    text-align: center;
+    color: #9F9F9F;
+    font-size: 0.12rem;
+  }
+  .footer_div4 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -0.65rem;
+    z-index: 100;
+    .ulList_9{
+      width: 100%;
+      background: #000;
+      li{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        img{
+          margin: 0.1rem 0.1rem;
+          width: 0.3rem;
+          height: 0.25rem;
+        }
+        div{
+          position: relative;
+          width: 80%;
+          font-size: 0.12rem;
+          span:nth-of-type(1){
+            position: absolute;
+            left: 0;
+            top: 0.1rem;
+            color: #ffffff;
+          }
+          span:nth-of-type(2){
+            position: absolute;
+            top: 0.1rem;
+            left: 0.55rem;
+            color: #FB9200;
+          }
+          p{
+            position: absolute;
+            bottom: 0.06rem;
+            left: 0.1rem;
+            font-size: 0.1rem;
+            color: #7E7E7E;
+          }
+        }
+      }
+    }
+  }
+}
